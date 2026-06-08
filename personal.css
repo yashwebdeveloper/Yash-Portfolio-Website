@@ -1,0 +1,482 @@
+/* ================= BODY ================= */
+
+body{
+
+margin:0;
+
+font-family:Arial, sans-serif;
+
+background:#0F172A;
+
+color:white;
+
+}
+
+/* ================= HEADER ================= */
+
+header{
+
+background:#111827;
+
+padding:20px;
+
+text-align:center;
+
+}
+
+/* ================= LOGO ================= */
+
+.img img{
+
+border-radius:50%;
+
+border:4px solid #38BDF8;
+
+}
+
+/* ================= NAVBAR ================= */
+
+.nav nav{
+
+display:flex;
+
+justify-content:center;
+
+gap:30px;
+
+padding:20px;
+
+}
+
+.nav a{
+
+text-decoration:none;
+
+color:white;
+
+font-size:20px;
+
+font-weight:bold;
+
+transition:0.5s;
+
+}
+
+.nav a:hover{
+
+color:#22C55E;
+
+transform:scale(1.1);
+
+}
+
+/* ================= HERO SECTION ================= */
+
+.hero{
+
+text-align:center;
+
+padding:40px;
+
+margin:20px;
+
+background:#1E293B;
+
+border-radius:20px;
+
+box-shadow:5px 5px 15px black;
+
+}
+
+.hero h1{
+
+font-size:50px;
+
+color:#38BDF8;
+
+}
+
+.hero h2{
+
+font-size:30px;
+
+color:#22C55E;
+
+}
+
+.hero p{
+
+font-size:22px;
+
+line-height:35px;
+
+}
+
+/* ================= BUTTONS ================= */
+
+button{
+
+padding:15px 25px;
+
+margin:10px;
+
+border:none;
+
+border-radius:10px;
+
+background:#38BDF8;
+
+color:white;
+
+font-size:18px;
+
+font-weight:bold;
+
+cursor:pointer;
+
+transition:0.5s;
+
+}
+
+button:hover{
+
+background:#22C55E;
+
+transform:scale(1.05);
+
+}
+
+/* ================= PROFILE IMAGE ================= */
+
+.img1{
+
+text-align:center;
+
+margin:30px;
+
+}
+
+.img1 img{
+
+border-radius:50%;
+
+border:5px solid #22C55E;
+
+box-shadow:5px 5px 15px black;
+
+}
+
+/* ================= SOCIAL LINKS ================= */
+
+.social-links{
+
+text-align:center;
+
+padding:30px;
+
+}
+
+.social-links a{
+
+display:inline-block;
+
+margin:10px;
+
+padding:10px 20px;
+
+background:#38BDF8;
+
+color:white;
+
+text-decoration:none;
+
+border-radius:10px;
+
+transition:0.5s;
+
+}
+
+.social-links a:hover{
+
+background:#22C55E;
+
+transform:scale(1.1);
+
+}
+
+/* ================= TABLE ================= */
+
+table{
+
+width:90%;
+
+margin:auto;
+
+border-collapse:collapse;
+
+background:#1E293B;
+
+}
+
+th{
+
+background:#38BDF8;
+
+padding:15px;
+
+font-size:22px;
+
+}
+
+td{
+
+border:1px solid white;
+
+padding:15px;
+
+text-align:center;
+
+}
+
+tr:hover{
+
+background:#334155;
+
+}
+
+/* ================= OBJECTIVE ================= */
+
+.objective{
+
+margin:20px;
+
+padding:30px;
+
+background:#1E293B;
+
+border-radius:20px;
+
+box-shadow:5px 5px 15px black;
+
+text-align:center;
+
+}
+
+/* ================= TOOLS ================= */
+
+.tools{
+
+margin:20px;
+
+padding:30px;
+
+background:#1E293B;
+
+border-radius:20px;
+
+}
+
+.tools ul li{
+
+font-size:22px;
+
+margin:10px;
+
+}
+
+/* ================= PROJECT ================= */
+
+.project{
+
+margin:20px;
+
+padding:30px;
+
+background:#1E293B;
+
+border-radius:20px;
+
+box-shadow:5px 5px 15px black;
+
+}
+
+.project ul li{
+
+font-size:20px;
+
+margin:10px;
+
+}
+
+.project a{
+
+text-decoration:none;
+
+color:white;
+
+}
+
+/* ================= FORM ================= */
+
+.form{
+
+padding:30px;
+
+}
+
+form{
+
+width:60%;
+
+margin:auto;
+
+background:#1E293B;
+
+padding:30px;
+
+border-radius:20px;
+
+display:flex;
+
+flex-direction:column;
+
+gap:15px;
+
+}
+
+input,
+textarea{
+
+padding:12px;
+
+font-size:18px;
+
+border:none;
+
+border-radius:10px;
+
+}
+
+input[type="submit"]{
+
+background:#38BDF8;
+
+color:white;
+
+cursor:pointer;
+
+}
+
+input[type="submit"]:hover{
+
+background:#22C55E;
+
+}
+
+input[type="reset"]{
+
+background:red;
+
+color:white;
+
+cursor:pointer;
+
+}
+
+input[type="reset"]:hover{
+
+background:darkred;
+
+}
+
+/* ================= MAP ================= */
+
+.map{
+
+text-align:center;
+
+padding:30px;
+
+}
+
+.map iframe{
+
+width:90%;
+
+border-radius:20px;
+
+}
+
+/* ================= FOOTER ================= */
+
+footer{
+
+background:black;
+
+text-align:center;
+
+padding:30px;
+
+margin-top:30px;
+
+}
+
+footer a{
+
+color:#38BDF8;
+
+margin:10px;
+
+text-decoration:none;
+
+}
+
+footer a:hover{
+
+color:#22C55E;
+
+}
+
+/* ================= RESPONSIVE DESIGN ================= */
+
+@media screen and (max-width:768px){
+
+.nav nav{
+
+flex-direction:column;
+
+}
+
+.hero h1{
+
+font-size:35px;
+
+}
+
+.hero h2{
+
+font-size:25px;
+
+}
+
+form{
+
+width:90%;
+
+}
+
+table{
+
+font-size:14px;
+
+}
+
+.img1 img{
+
+width:200px;
+
+height:200px;
+
+}
+
+}
